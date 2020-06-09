@@ -85,33 +85,33 @@ $text-emphasis: (
 //
 
 $property-values: (
-  // Primary
+  /* Primary*/
   primary: $primary,
-  // Secondary
+  /* Secondary*/
   secondary: $secondary,
-  // Background
+  /* Background*/
   background: $background,
-  // Surface
+  /* Surface*/
   surface: $surface,
-  // Error
+  /* Error*/
   error: $error,
   on-primary: $on-primary,
   on-secondary: $on-secondary,
   on-surface: $on-surface,
   on-error: $on-error,
-  // Text-primary on "background" background
+  /* Text-primary on "background" background*/
   text-primary-on-background: ink-color-for-fill_(primary, $background),
   text-secondary-on-background: ink-color-for-fill_(secondary, $background),
   text-hint-on-background: ink-color-for-fill_(hint, $background),
   text-disabled-on-background: ink-color-for-fill_(disabled, $background),
   text-icon-on-background: ink-color-for-fill_(icon, $background),
-  // Text-primary on "light" background
+  /* Text-primary on "light" background*/
   text-primary-on-light: ink-color-for-fill_(primary, light),
   text-secondary-on-light: ink-color-for-fill_(secondary, light),
   text-hint-on-light: ink-color-for-fill_(hint, light),
   text-disabled-on-light: ink-color-for-fill_(disabled, light),
   text-icon-on-light: ink-color-for-fill_(icon, light),
-  // Text-primary on "dark" background
+  /* Text-primary on "dark" background*/
   text-primary-on-dark: ink-color-for-fill_(primary, dark),
   text-secondary-on-dark: ink-color-for-fill_(secondary, dark),
   text-hint-on-dark: ink-color-for-fill_(hint, dark),
